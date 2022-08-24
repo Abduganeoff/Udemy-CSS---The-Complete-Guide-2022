@@ -15,8 +15,10 @@ body {
   padding: 10px;
 }
 
-#section-title {
+.section-title {
   color: #2ddf5c;
+  text-align: center;
+  margin: 24px 0;
 }
 
 #product-overview h1 {
@@ -86,4 +88,83 @@ body {
   border: none;
   color: #ff1b68;
   background: white;
+}
+
+.plan-offer {
+  background: #e0ffcd;
+  display: inline-block;
+  padding: 24px 16px 16px;
+  width: calc(100% / 3.5);
+  text-align: center;
+  margin: 0 30px;
+  vertical-align: middle;
+}
+
+.plan-offer-title {
+  color: #0e4f1f;
+  margin-bottom: 16px;
+}
+
+.plan-offer-monthly {
+  color: grey;
+  margin: 16px 0;
+}
+
+.plan-offer-package {
+  list-style: none;
+  padding: 0;
+}
+
+.plan-offer-package li {
+  margin: 5px 0;
+}
+
+.plan-offer-subtitle {
+  margin: 10px 0;
+}
+
+.plan-offer-btn {
+  background: #0e4f1f;
+  padding: 8px 5px;
+  font-weight: bold;
+  border-radius: 8px;
+  color: white;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.plan-offer-btn:hover {
+  background: white;
+  color: #0e4f1f;
+  transition: 0.3s;
+}
+
+.recommended-offer {
+  background: #7dd87d;
+}
+
+.recommended-offer-title {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 2px #0e4f1f;
+}
+
+.recommended-offer-subtitle,
+.recommended-offer-package li {
+  color: white;
+}
+
+.recommended-offer-monthly {
+  color: #0e4f1f;
+}
+
+.plan-offer__footer {
+  background: #fd5959;
+  padding: 40px 0;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 90px;
 }
