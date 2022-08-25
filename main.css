@@ -1,0 +1,122 @@
+.plan-offers {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.plan-offer {
+  background: #e0ffcd;
+  display: inline-block;
+  padding: 16px;
+  width: 30%;
+  text-align: center;
+  margin: 8px;
+  vertical-align: middle;
+}
+
+.plan-offer-title {
+  color: #0e4f1f;
+  margin-bottom: 16px;
+}
+
+.plan-offer-monthly {
+  color: grey;
+  margin: 16px 0;
+}
+
+.plan-offer-package {
+  list-style: none;
+  padding: 0;
+}
+
+.plan-offer-package li {
+  margin: 5px 0;
+}
+
+.plan-offer-subtitle {
+  margin: 10px 0;
+}
+
+.plan-offer-btn {
+  background: #0e4f1f;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 1.5px solid #0e4f1f;
+  color: white;
+  margin: 10px 0;
+  cursor: pointer;
+  font: inherit;
+}
+
+.plan-offer-btn:hover,
+.plan-offer-btn:active {
+  background: white;
+  color: #0e4f1f;
+  transition: 0.3s;
+}
+
+.plan-offer-btn:focus {
+  outline: none;
+}
+
+.recommended-offer {
+  background: #7dd87d;
+  box-shadow: 2px 2px 2px 2px #0e4f1f;
+}
+
+.recommended-offer-title {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 2px #0e4f1f;
+}
+
+.recommended-offer-subtitle,
+.recommended-offer-package li {
+  color: white;
+}
+
+.recommended-offer-monthly {
+  color: #0e4f1f;
+}
+
+#key-features {
+  background: #fd5959;
+  padding: 36px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin: 80px 0;
+}
+
+#key-features .section-title {
+  color: white;
+}
+
+.key-feature__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.key-feature {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+.key-feature__image {
+  background: #ffb6b9;
+  height: 128px;
+  width: 128px;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin: 16px auto;
+}
+
+.key-feature__description {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
