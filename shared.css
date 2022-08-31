@@ -46,6 +46,12 @@ body {
 .main-header__brand a {
   text-decoration: none;
   color: #0e4f1f;
+  height: 29px;
+  display: inline-block;
+}
+
+.main-header__brand img {
+  height: 100%;
 }
 
 .main-nav {
