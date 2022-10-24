@@ -10,16 +10,16 @@ body {
 #product-overview {
   background: url(assets/freedom.jpg);
   background-size: cover;
-  width: 100%;
+  width: 100vw;
   height: 528px;
-  padding: 10px;
+  padding: 0.8rem;
   margin-top: 45px;
 }
 
 .section-title {
   color: #2ddf5c;
   text-align: center;
-  margin: 24px 0;
+  margin: 1.5rem 0;
 }
 
 #product-overview h1 {
@@ -30,7 +30,7 @@ body {
 .main-header {
   background-color: #2ddf5c;
   width: 100%;
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -40,13 +40,13 @@ body {
 .main-header__brand {
   display: inline-block;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.5rem;
   vertical-align: middle;
 }
 .main-header__brand a {
   text-decoration: none;
   color: #0e4f1f;
-  height: 29px;
+  height: 1.9rem;
   display: inline-block;
 }
 
@@ -70,14 +70,14 @@ body {
 .main-nav__item {
   display: inline-block;
   list-style-type: none;
-  margin: 0 16px;
+  margin: 0 1rem;
   font-weight: bold;
 }
 
 .main-nav__item a {
   text-decoration: none;
   color: #0e4f1f;
-  padding: 3px 0;
+  padding: 0.2rem 0;
 }
 
 .main-nav__item a:hover,
@@ -90,7 +90,7 @@ body {
 .main-nav__item--cta a {
   color: white;
   background: red;
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
   border-radius: 8px;
 }
 
@@ -103,13 +103,13 @@ body {
 
 .main-footer {
   background-color: black;
-  padding: 40px;
+  padding: 2.5rem;
 }
 
 .main-footer {
   background: black;
-  padding: 32px;
-  margin-top: 48px;
+  padding: 2rem;
+  margin-top: 3rem;
 }
 
 .main-footer__links {
@@ -121,7 +121,7 @@ body {
 
 .main-footer__link {
   display: inline-block;
-  margin: 0 16px;
+  margin: 0 1rem;
 }
 
 .main-footer__link a {
